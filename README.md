@@ -362,6 +362,30 @@ Make insurance claims processing faster, smarter, and more accessible for everyo
 ---
 
 
+## 🏆 Hackathon Track
+
+### UiPath Maestro Case – Track 1
+
+### Insurance Claims Triage & Resolution
+
+ClaimFlow AI demonstrates how agentic AI and intelligent case management can automate claims workflows while maintaining trust, transparency, and human oversight.
+
+---
+
+## 👨‍💻 Team
+
+### Ibrahim Ashiah
+
+Building intelligent systems that solve real-world problems across Africa.
+
+---
+
+## 📜 License
+
+MIT License
+
+
+
 
 
 
