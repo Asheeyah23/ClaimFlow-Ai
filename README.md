@@ -133,7 +133,6 @@ ClaimFlow AI evaluates:
 Using Maestro Case orchestration:
 
 ```mermaid
-
 flowchart TD
     A[Claim Submission] --> B[Intake Agent]
     B --> C[Fraud Detection Agent]
@@ -147,7 +146,6 @@ flowchart TD
     F --> I[Payout]
     G --> I
     H --> I
-
 ```
 
 ---
