@@ -5,7 +5,7 @@ AI-powered insurance claims triage and fraud detection for emerging markets.
 ---
 
 
-## 🚀 Overview
+##  Overview
 
 ClaimFlow AI is an intelligent claims management platform that automates the insurance claims lifecycle from submission to payout.
 
@@ -27,7 +27,7 @@ The Result
 
 ---
 
-## 🎯 Problem
+##  Problem
 
 Insurance claims processing remains heavily manual across many emerging markets.
 
@@ -47,7 +47,7 @@ Customers can wait days or weeks for claim decisions that should take minutes.
 
 ---
 
-## 💡 Solution
+##  Solution
 
 ClaimFlow AI transforms claims processing into an intelligent workflow powered by AI agents.
 
@@ -74,7 +74,7 @@ High-risk claims are escalated to human adjusters with AI-generated reasoning an
 
 ---
 
-## 🏗️ How It Works
+##  How It Works
 
 ### 1. Claims Intake
 
@@ -178,7 +178,7 @@ Customers receive updates through:
 ---
 
 
-## 🧠 AI Architecture
+##  AI Architecture
 
 ```
 ┌───────────────────────┐
@@ -215,7 +215,7 @@ Auto Resolve   Human Review
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 ### Core Platform
 
@@ -265,7 +265,7 @@ Auto Resolve   Human Review
 
 ---
 
-## 📱 Example Workflow
+##  Example Workflow
 
 A customer experiences flood damage and submits:
 
@@ -296,11 +296,11 @@ Low Risk
 
 High Risk
 
-⚠️ Escalated to adjuster with AI-generated explanation
+🚨 Escalated to adjuster with AI-generated explanation
 
 ---
 
-## 🔒 Fraud Prevention Features
+##  Fraud Prevention Features
 
 • Risk scoring engine
 • Duplicate claim detection
@@ -311,7 +311,7 @@ High Risk
 
 ---
 
-## 📊 Impact
+##  Impact
 
 ### For Insurers
 
@@ -343,7 +343,7 @@ High Risk
 
 ---
 
-## 🌍 Built for Emerging Markets
+##  Built for Emerging Markets
 
 ### ClaimFlow AI is designed specifically for regions where:
 
@@ -362,7 +362,7 @@ Make insurance claims processing faster, smarter, and more accessible for everyo
 ---
 
 
-## 🏆 Hackathon Track
+##  Hackathon Track
 
 ### UiPath Maestro Case – Track 1
 
@@ -372,7 +372,7 @@ ClaimFlow AI demonstrates how agentic AI and intelligent case management can aut
 
 ---
 
-## 👨‍💻 Team
+##  Team
 
 ### Ibrahim Ashiah
 
@@ -380,7 +380,7 @@ Building intelligent systems that solve real-world problems across Africa.
 
 ---
 
-## 📜 License
+##  License
 
 MIT License
 
