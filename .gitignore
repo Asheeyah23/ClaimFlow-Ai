@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment / secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Next.js
+.next/
+**/.next/
+out/
+**/out/
+
+# Production build
+build/
+dist/
+
+# SQLite database + WAL
+*.db
+*.db-wal
+*.db-shm
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+*.pem
+coverage/
+.vscode/
+.idea/
+
+# Temporary diagnostic scripts
+backend/_*.js
