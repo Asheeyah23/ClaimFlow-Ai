@@ -1,4 +1,4 @@
-# ClaimFlow-Ai
+# ClaimFlow
 Smarter Claims. Faster Payouts.  
 AI-powered insurance claims triage and fraud detection for emerging markets.
 
@@ -7,9 +7,9 @@ AI-powered insurance claims triage and fraud detection for emerging markets.
 
 ##  Overview
 
-ClaimFlow AI is an intelligent claims management platform that automates the insurance claims lifecycle from submission to payout.
+ClaimFlow is an intelligent claims management platform that automates the insurance claims lifecycle from submission to payout.
 
-Built for emerging markets, ClaimFlow AI leverages agentic AI to analyze claim evidence, detect fraud, route exceptions, and accelerate claim resolution while keeping human adjusters in control when necessary.
+Built for emerging markets, ClaimFlow leverages agentic AI to analyze claim evidence, detect fraud, route exceptions, and accelerate claim resolution while keeping human adjusters in control when necessary.
 
 Instead of forcing insurance teams to manually review every claim, ClaimFlow AI automatically processes low-risk claims and escalates only suspicious or complex cases for human intervention.
 
