@@ -5,6 +5,9 @@
   "description": "ClaimFlow AI — claims triage & fraud detection API",
   "main": "src/server.js",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18 <=22"
+  },
   "scripts": {
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",

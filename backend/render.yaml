@@ -1,0 +1,52 @@
+# Render Blueprint for the ClaimFlow API.
+# Deploy: push to GitHub, then in Render → "New +" → "Blueprint" and point it at this repo.
+# Render auto-detects this file. Set any secret env vars (marked sync:false) in the dashboard.
+services:
+  - type: web
+    name: claimflow-api
+    runtime: node
+    rootDir: backend
+    plan: starter          # "starter" (or higher) is required for a persistent disk.
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeploy: true
+    disk:
+      name: claimflow-data
+      mountPath: /var/data  # SQLite file lives here so data survives restarts/redeploys.
+      sizeGB: 1
+    envVars:
+      - key: NODE_VERSION
+        value: 20.20.2
+      - key: DB_PATH
+        value: /var/data/claimflow.db
+      - key: JWT_SECRET
+        generateValue: true   # Render generates a strong random secret.
+      - key: JWT_EXPIRES
+        value: 7d
+      - key: CORS_ORIGIN
+        value: "*"            # Tighten to your Vercel URL once the frontend is deployed.
+      # --- Optional: live Claude fraud engine (leave unset to use the heuristic engine) ---
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: CLAUDE_MODEL
+        sync: false
+      # --- Optional: UiPath Orchestrator / Maestro (leave unset to skip orchestration) ---
+      - key: UIPATH_BASE_URL
+        sync: false
+      - key: UIPATH_ACCOUNT
+        sync: false
+      - key: UIPATH_TENANT
+        sync: false
+      - key: UIPATH_CLIENT_ID
+        sync: false
+      - key: UIPATH_CLIENT_SECRET
+        sync: false
+      - key: UIPATH_FOLDER_ID
+        sync: false
+      - key: UIPATH_RELEASE_NAME
+        sync: false
+      - key: UIPATH_SCOPE
+        sync: false
+      - key: UIPATH_STRATEGY
+        sync: false
