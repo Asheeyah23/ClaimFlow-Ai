@@ -6,20 +6,16 @@ services:
     name: claimflow-api
     runtime: node
     rootDir: backend
-    plan: starter          # "starter" (or higher) is required for a persistent disk.
+    plan: free             # Free tier — no card required. (No persistent disk on free.)
     buildCommand: npm install
     startCommand: npm start
     healthCheckPath: /api/health
     autoDeploy: true
-    disk:
-      name: claimflow-data
-      mountPath: /var/data  # SQLite file lives here so data survives restarts/redeploys.
-      sizeGB: 1
     envVars:
       - key: NODE_VERSION
         value: 20.20.2
       - key: DB_PATH
-        value: /var/data/claimflow.db
+        value: /tmp/claimflow.db   # Ephemeral: DB auto-seeds on every boot. Good for a demo.
       - key: JWT_SECRET
         generateValue: true   # Render generates a strong random secret.
       - key: JWT_EXPIRES
